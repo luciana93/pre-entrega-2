@@ -1,0 +1,46 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Archivos de editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Archivos de configuración local
+.env
+.env.local
+config.local.yml
+
+# Directorios de dependencias
+node_modules/
+__pycache__/
+*.pyc
+
+# Archivos temporales de VirtualBox
+*.vdi.tmp
+*.sav
+
+# Archivos de captura/screenshot grandes
+*.vmdk
+*.iso
+screenshots/*.png.bak
+
+# Credentials y archivos sensibles
+credentials.txt
+secrets/
+.ssh/
